@@ -1,1 +1,69 @@
-// CSS page for HW1>
+/** HW1
+**/
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+body {
+    background: grey;
+    line-height: 12px;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: grey;
+    background: #ccc;
+  }
+
+  nav {
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: grey;
+    background: #ccc;
+  }
+
+  section {
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-left: 18%;
+    color: grey;
+    background: #ccc;
+    height: 250px;
+    width: 35%;
+    float: left;
+  }
+
+  aside {
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-right: 18%;
+    color: grey;
+    background: #ccc;
+    height: 250px;
+    width: 28%;
+    float: right;
+  }
+
+  article {
+    color: #ccc;
+    background: grey;
+    height: 175px;
+  }
+
+  #h1s {
+    color: grey;
+    background: #ccc;
+  }
+
+  #p {
+    color: grey;
+    background: #ccc;
+    padding: 10px, 40px, 10px, 40px;
+  }
