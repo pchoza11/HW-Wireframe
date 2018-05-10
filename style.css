@@ -9,6 +9,9 @@
 body {
     background: grey;
     line-height: 12px;
+    width: 960px;
+    margin: auto;
+  
 }
 
 header {
@@ -52,18 +55,43 @@ header {
   }
 
   article {
+    padding: 5px;
     color: #ccc;
     background: grey;
     height: 175px;
   }
 
+  .boxbox {
+    color: grey;
+    background: #ccc;
+    margin-top: 30px;
+  }
+
   #h1s {
     color: grey;
     background: #ccc;
+    padding: 10px 92px;
+    margin-top: 50px;
+    height: 65px;
+
   }
 
   #p {
     color: grey;
     background: #ccc;
-    padding: 10px, 40px, 10px, 40px;
+   
+    padding: 10px 10px;
+    width: 255px;
+    height: 75px;
+    margin: center;
+    margin-left: 15px;
   }
+  footer {
+    padding: 10px;
+    margin-top: 275px;
+    height: 55px;
+    margin-bottom: 15px;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: grey;
+    background: #ccc;
